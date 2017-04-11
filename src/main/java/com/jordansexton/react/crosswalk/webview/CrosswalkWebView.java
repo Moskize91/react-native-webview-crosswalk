@@ -61,6 +61,7 @@ class CrosswalkWebView extends XWalkView implements LifecycleEventListener {
 
         this.setResourceClient(resourceClient);
         this.setUIClient(uiClient);
+        this.getSettings().setUseWideViewPort(true);
     }
 
     public Boolean getLocalhost () {
